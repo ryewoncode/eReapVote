@@ -1,0 +1,33 @@
+{
+  "name": "eReapVote",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "react": "16.8.3",
+    "react-native": "0.59",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.18.1",
+    "vue-native-core": "0.2.0",
+    "vue-native-helper": "0.2.0",
+    "vue-native-router": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/runtime": "^7.13.9",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "react-test-renderer": "16.8.3",
+    "vue-native-scripts": "0.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
